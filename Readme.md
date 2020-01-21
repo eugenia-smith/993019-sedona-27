@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Eugenia Kuznetsova](https://up.htmlacademy.ru/htmlcss/27/user/993019).
-* Наставник: `Неизвестно`.
+* Наставник: Виктор Кан (https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
