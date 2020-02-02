@@ -21,8 +21,8 @@
 	<main>
 		<h1>Welcome to Sedona</h1>
 		<section>
-			<h2>Main screen</h2>
-				<img src="img/intro-welcome.svg" width="459" height="353" alt="Welcome">
+			<h2>Главный экран</h2>
+				<img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону!">
 		</section>
 		<section>
 			<h2>Почему Седона?</h2>
@@ -37,7 +37,32 @@
 			и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			<img src="img/map.png" width="" height="" alt="Карта города">
 			<button type="button">Поиск гостиницы в Седоне</button>
-			<!--Здесь будет форма поиска гостиниц в городе-->
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<p>	
+					<label for="check-in-date">Дата заезда</label>
+					<input id="check-in-date" type="text" name="check-in" placeholder="24 апреля 2017">
+					<button type="button"><img src="img/calendar.svg" alt="календарь для выбора даты"></button>
+				</p>
+				<p>
+					<label for="check-out-date">Дата выезда</label>
+					<input id="check-out-date" type="text" name="check-out" placeholder="4 июля 2017">
+					<button type="button"><img src="img/calendar.svg" alt="календарь для выбора даты"></button>
+
+				</p>
+				<p>
+					<label for="adults">Взрослые</label>
+					<button type="button">-</button>
+					<input id="adults" type="number" name="adults" min="0" max="10" step="1" placeholder="2">
+					<button type="button">+</button>
+				</p>
+				<p>
+					<label for="kids">Дети</label>
+					<button type="button">-</button>
+					<input id="kids" type="number" name="kids" min="0" max="10" step="1" placeholder="0">
+					<button type="button">+</button>
+				</p>	
+				<button type="submit">Найти</button>
+			</form>
 		</section>
 	</main>
 <footer>
