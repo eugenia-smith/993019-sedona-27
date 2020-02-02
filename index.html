@@ -40,25 +40,25 @@
 			<form action="https://echo.htmlacademy.ru" method="post">
 				<p>	
 					<label for="check-in-date">Дата заезда</label>
-					<input id="check-in-date" type="text" name="check-in" placeholder="24 апреля 2017">
-					<button type="button"><img src="img/calendar.svg" width="21" height="22" alt="календарь для выбора даты"></button>
+					<input id="check-in-date" type="text" name="check-in" value="current-date">
+					<button type="button">выбрать дату</button>
 				</p>
 				<p>
 					<label for="check-out-date">Дата выезда</label>
-					<input id="check-out-date" type="text" name="check-out" placeholder="4 июля 2017">
-					<button type="button"><img src="img/calendar.svg" width="21" height="22" alt="календарь для выбора даты"></button>
+					<input id="check-out-date" type="text" name="check-out" value="current-date">
+					<button type="button">выбрать дату</button>
 
 				</p>
 				<p>
 					<label for="adults">Взрослые</label>
 					<button type="button">-</button>
-					<input id="adults" type="number" name="adults" min="0" max="10" step="1" placeholder="2">
+					<input id="adults" type="number" name="adults" min="0" max="10" step="1" value="2">
 					<button type="button">+</button>
 				</p>
 				<p>
 					<label for="kids">Дети</label>
 					<button type="button">-</button>
-					<input id="kids" type="number" name="kids" min="0" max="10" step="1" placeholder="0">
+					<input id="kids" type="number" name="kids" min="0" max="10" step="1" value="0">
 					<button type="button">+</button>
 				</p>	
 				<button type="submit">Найти</button>
