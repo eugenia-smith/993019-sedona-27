@@ -62,6 +62,7 @@ a{
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
+	text-transform: uppercase;
 	color: #ffffff;
 }
 
@@ -84,3 +85,45 @@ a{
 	text-align: center;
 }
 
+.icons{
+	list-style: none;
+}
+
+.amara h2{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.quail h2{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.poco-diablo h2{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.hotels{
+	list-style: none;
+}
+
+.rating{
+	list-style: none;
+}
+
+.hotels{
+	font-size: 14px;
+	line-height: 21px;
+	text-align: left; 
+}
+
+.hotels a{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 21px;
+	color: #ffffff;
+}
