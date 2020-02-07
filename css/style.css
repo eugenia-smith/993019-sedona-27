@@ -1,29 +1,25 @@
 body{
 	margin: 0;
 	padding: 0;
-
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-	color: #000000;
+	font-weight: normal;
 	text-transform: uppercase;
+	line-height: 26px;
+	text-align: left;
+	color: #000000;
+
 }
 
 a{
 	text-decoration: none;
 }
 
-.main-logo{
-
-
-}
 
 .nav-options{
 	font-size: 14px;
-	font-weight: 700;
+	font-weight: bold;
 	line-height: 24px;
-	text-transform: uppercase;
 	list-style: none;
 }
 
@@ -31,7 +27,60 @@ a{
 	color:#000000;
 }
 
+.visually-hidden{
+	position: absolute;
+	clip: rect(0 0 0 0);
+	widows: 1px;
+	height: 1px;
+	margin: -1px;
+	}
 
+.slogan{
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 26px;
+	text-align: center;
+}
 
+.pros{
+	text-align: center;
+}
 
+.curious{
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 36px;
+	text-align: center;
+}
+
+.assist{
+	text-align: center;
+	line-height: 24px;
+}
+
+.search{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+
+.search-form{
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.search-form button[type="submit"]{
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.footer p{
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+}
 

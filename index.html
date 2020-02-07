@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-  	<header>
+  	<header class="header">
   		<a href="#">
   				<img class="main-logo" src="img/logo-sedona.svg" width="140" height="72" alt="«Логотип Седоны»">
   		</a>
@@ -22,25 +22,25 @@
   		</nav>
   	</header>
 	<main>
-		<h1>Рады приветствовать в Седоне!</h1>
+		<h1 class="visually-hidden">Рады приветствовать в Седоне!</h1>
 		<section class="main-screen">
 			<h2 class="visually-hidden">Главный экран</h2>
 				<img src="img/intro-welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону!">
 		</section>
 		<section>
 			<h2 class="visually-hidden">Почему Седона?</h2>
-			<p>	Седона — небольшой городок в Аризоне,<br>
+			<p class="slogan">	Седона — небольшой городок в Аризоне,<br>
 				заслуживающий большего!</p>
-			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>			
+			<p class="pros">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>			
 		</section>
 		<section>
 			<h2 class="visually-hidden">Бронирование гостиницы</h2>
-			<p>Заинтересовались?</p>
-			<p>Укажите предполагаемые даты поездки<br>
+			<p class="curious">Заинтересовались?</p>
+			<p class="assist">Укажите предполагаемые даты поездки<br>
 			и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 			<img src="img/map.png" width="" height="" alt="Седона на карте штата">
-			<button type="button">Поиск гостиницы в Седоне</button>
-			<form action="https://echo.htmlacademy.ru" method="post">
+			<button class="search" type="button">Поиск гостиницы в Седоне</button>
+			<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 				<p>	
 					<label for="check-in-date">Дата заезда</label>
 					<input id="check-in-date" type="text" name="check-in" value="current-date">
@@ -68,17 +68,20 @@
 			</form>
 		</section>
 	</main>
-<footer>
-	<p>#visitsedona</p>
+<footer class="footer">
+	<p>
+		#visitsedona<br>
+		Тел: +7(495) 666-02-66
+	</p>
 	<div>
 		<ul>
-			<li>
+			<li class="twitter">
 				<a href="#"><img src="img/twitter.svg" width="17" height="15" alt="Twitter"></a>
 			</li>
-			<li>
+			<li class="fb">
 				<a href="#"><img src="img/fb-icon.svg" width="12" height="22" alt="Facebook"></a>
 			</li>
-			<li>
+			<li class="youtube">
 				<a href="#"><img src="img/youtube.svg" width="20" height="16" alt="Youtube"></a>
 			</li>
 		</ul>
