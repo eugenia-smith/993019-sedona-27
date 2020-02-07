@@ -42,6 +42,14 @@ a{
 	text-align: center;
 }
 
+.main-screen{
+	width:1200px;
+	height:773px;
+	background-image: url(../img/landscape.jpg);
+	background-repeat: no-repeat;
+	background-position: 
+}
+
 .pros{
 	text-align: center;
 }
