@@ -21,6 +21,7 @@ a{
 	font-weight: bold;
 	line-height: 24px;
 	list-style: none;
+	background-color: #ffffff;
 }
 
 .nav-options a{
@@ -72,6 +73,7 @@ a{
 	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
+	background-color: #766357; 
 }
 
 .search-form{
@@ -85,6 +87,7 @@ a{
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #ffffff;
+	background-color: #81b3d2;
 }
 
 .footer p{
@@ -95,6 +98,12 @@ a{
 
 .icons{
 	list-style: none;
+}
+
+.calendar{
+	background-image: url(../img/calendar.svg);
+	width: 21px;
+	height: 22px;
 }
 
 .amara h2{
@@ -123,6 +132,10 @@ a{
 	list-style: none;
 }
 
+.rating li{
+	display: inline-block;
+}
+
 .hotels{
 	font-size: 14px;
 	line-height: 21px;
@@ -134,4 +147,12 @@ a{
 	font-weight: bold;
 	line-height: 21px;
 	color: #ffffff;
+}
+
+.details{
+	background-color: #81b3d2;
+}
+
+.book{
+	background-color: #766357;
 }
