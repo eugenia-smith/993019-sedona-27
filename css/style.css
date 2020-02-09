@@ -28,6 +28,20 @@ a{
 	color:#000000;
 }
 
+.nav-options a:hover,
+.hotels h2:hover{
+	color: #81b3d2;
+}
+
+.nav-options a:active,
+.hotels h2:active{
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-options .current{
+	color: #766357;
+}
+
 .visually-hidden{
 	position: absolute;
 	clip: rect(0 0 0 0);
@@ -76,6 +90,14 @@ a{
 	background-color: #766357; 
 }
 
+.search:hover{
+	background-color: #604e43;
+}
+
+.search:active{
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;
+}
 .search-form{
 	font-weight: bold;
 	text-align: left;
@@ -90,11 +112,49 @@ a{
 	background-color: #81b3d2;
 }
 
+.search-form button[type="submit"]:hover{
+	background-color: #669ec0;
+}
+
+.search-form button[type="submit"]:active{
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
+.search-form input{
+	background-color: #f2f2f2;
+}
+
+.search-form input:hover{
+	background-color: #ebebeb;
+}
+
+.search-form input:focus{
+	border: solid 2px #e5e5e5;
+	background-color: #ffffff;
+}
+
+.search-form .calendar,
+.search-form button[type="button"]{
+	color: #cacaca;
+}
+
+.search-form .calendar,
+.search-form button[type="button"]:hover{
+	color: #000000;
+}
+
+.search-form .calendar,
+.search-form button[type="button"]:active{
+	color: #81b3d2;
+}
+
 .footer p{
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
 }
+
 
 .icons{
 	list-style: none;
@@ -153,6 +213,24 @@ a{
 	background-color: #81b3d2;
 }
 
+.details:hover{
+	background-color: #669ec0;
+}
+
+.details:active{
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #5496bd;
+}
+
 .book{
 	background-color: #766357;
+}
+
+.book:hover{
+	background-color: #604e43;
+}
+
+.book:active{
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #503e33;
 }
