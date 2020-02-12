@@ -234,3 +234,39 @@ a{
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;
 }
+
+.head-container{
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	/*min-height: 56px;*/
+	display: flex;
+	background-color: rgba(245, 66, 203, 0.3);
+}
+
+ .header-logo{
+	margin: 0;
+	padding: 0;
+	width: 140px;
+	height: 71px;
+}
+
+/*.head-container .main-nav-wrapper{
+	margin: 0;
+	padding: 0;
+	width: 1195px;
+	height: 56px;
+	background-color: rgba(109, 235, 123, 0.3);
+}
+
+.main-nav-wrapper .header-menu{
+	margin: 0;
+	padding: 0;width: 1195px;
+	min-height: 56px;
+	background-color: rgba(245, 66, 203, 0.3);
+}
+
+/*.menu-item{
+	width: 239px;
+	background-color: rgba(235, 140, 106, 0.3)
+}*/
