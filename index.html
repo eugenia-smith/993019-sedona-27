@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
   <body>
+  	<div class="wrap-all">
   	<header class="header head-container">
   		<div class="header-logo">
   		<a href="#">
@@ -16,14 +17,18 @@
   		</div>
   		<nav class="main-nav main-nav-wrapper">
   			<ul class="nav-options header-menu">
-  				<li class="menu-item-1"><a href="info.html">Информация</a></li>
-  				<li class="menu-item-2"><a href="gallery.html">Фото и видео</a></li>
-  				<li class="menu-item-3"><a href="map.html">Карта штата</a></li>
-  				<li class="menu-item-4"><a href="catalogue.html">Гостиницы</a></li>
+  				<div class="part-1">
+  					<li><a href="info.html">Информация</a></li>
+  					<li><a href="gallery.html">Фото и видео</a></li>
+  				</div>
+  				<div class="part-2">
+  					<li><a href="map.html">Карта штата</a></li>
+  					<li><a href="catalogue.html">Гостиницы</a></li>
+  				</div>
   			</ul>
   		</nav>
   	</header>
-	<!--<main class="main-container">
+	<main class="main-container">
 		<h1 class="visually-hidden">Рады приветствовать в Седоне!</h1>
 		<section class="main-screen">
 			<h2 class="visually-hidden">Главный экран</h2>
@@ -37,40 +42,50 @@
 		</section>
 		<section class="booking">
 			<h2 class="visually-hidden">Бронирование гостиницы</h2>
-			<p class="curious">Заинтересовались?</p>
-			<p class="assist">Укажите предполагаемые даты поездки<br>
+			<div class="pre-form">
+				<div class="pre-form-text">
+				<p class="curious">Заинтересовались?</p>
+				<p class="assist">Укажите предполагаемые даты поездки<br>
 			и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-			<img src="img/map.png" width="1200" height="593" alt="Седона на карте штата">
-			<button class="search" type="button">Поиск гостиницы в Седоне</button>
-			<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-				<p>	
-					<label for="check-in-date">Дата заезда</label>
-					<input id="check-in-date" type="text" name="check-in" value="current-date">
-					<button class="calendar" type="button"></button>
-				</p>
-				<p>
-					<label for="check-out-date">Дата выезда</label>
-					<input id="check-out-date" type="text" name="check-out" value="current-date">
-					<button class="calendar" type="button"></button>
-
-				</p>
-				<p>
-					<label for="adults">Взрослые</label>
-					<button type="button">-</button>
-					<input id="adults" type="number" name="adults" min="0" max="10" step="1" value="2">
-					<button type="button">+</button>
-				</p>
-				<p>
-					<label for="kids">Дети</label>
-					<button type="button">-</button>
-					<input id="kids" type="number" name="kids" min="0" max="10" step="1" value="0">
-					<button type="button">+</button>
-				</p>	
-				<button type="submit">Найти</button>
-			</form>
+				</div>
+				<button class="search" type="button">Поиск гостиницы в Седоне</button>
+			</div>
+			<div class="map">
+				<div class="form-wrapper">
+					<div class="form-content">
+						<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+						<div class="check-in-date">	
+							<label for="check-in-date">Дата заезда</label>
+							<input id="check-in-date" type="text" name="check-in" value="current-date">
+							<button class="calendar" type="button"></button>
+						</div>
+						<div class="check-out-date">
+							<label for="check-out-date">Дата выезда</label>
+							<input id="check-out-date" type="text" name="check-out" value="current-date">
+							<button class="calendar" type="button"></button>
+						</div>
+						<div class="tourists">
+							<div class="adults">
+								<label for="adults">Взрослые</label>
+								<button type="button">-</button>
+								<input id="adults" type="number" name="adults" min="0" max="10" step="1" value="2">
+								<button type="button">+</button>
+							</div>
+							<div class="kids">
+						<label for="kids">Дети</label>
+						<button type="button">-</button>
+						<input id="kids" type="number" name="kids" min="0" max="10" step="1" value="0">
+						<button type="button">+</button>
+							</div>
+						</div>	
+						<button type="submit">Найти</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</section>
 	</main>
-<footer class="footer">
+<!--<footer class="footer">
 	<p>
 		#visitsedona<br>
 		Тел: +7(495) 666-02-66
@@ -90,6 +105,7 @@
 	</div>
 	<a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss">website by <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="html academy">
 	</a>
-</footer>  	
+</footer>
+	</div>  	
   </body>
 </html>

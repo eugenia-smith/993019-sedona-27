@@ -15,6 +15,53 @@ a{
 	text-decoration: none;
 }
 
+.wrap-all{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto; 
+
+}
+
+.head-container{
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	min-height: 56px;
+	display: flex;
+	background-color: rgba(245, 66, 203, 0.3);
+
+}
+
+ .header-logo{
+	margin-left: 51px;
+	margin-right: 53px;
+	padding: 0;
+	width: 140px;
+	height: 71px;
+}
+
+.header-menu{
+	margin: 0;
+	padding: 0;
+	width: 1195px;
+	background-color: rgba(109, 235, 123, 0.3);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.part-1,
+.part-2{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.header-menu li{
+	width: 239px;
+	height: 56px;
+	background-color: rgba(235, 140, 106, 0.3);
+	text-align: center;
+}
 
 .nav-options{
 	font-size: 14px;
@@ -62,11 +109,29 @@ a{
 	height:773px;
 	background-image: url(../img/landscape.jpg);
 	background-repeat: no-repeat;
-	background-position: 
+	text-align: center;
+	padding-top: 132px;
+}
+
+.why-sedona{
+	background-color: #ffffff;
+	height: 99px;
+	padding-right: 356px;
+	padding-top: 61px;
+	padding-bottom: 56px;
+	padding-left: 356px;
 }
 
 .pros{
+	margin-top: 38px;
 	text-align: center;
+}
+
+.pre-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .curious{
@@ -81,13 +146,59 @@ a{
 	line-height: 24px;
 }
 
+.map{
+	height: 593px;
+	background-image: url(../img/map.png);
+	padding-left: 316px;
+	padding-right: 316px;
+}
+
 .search{
+	margin-top: 52px;
+	height: 86px;
+	width: 568px;
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
-	background-color: #766357; 
+	background-color: #766357;
+
+}
+
+.form-wrapper{
+	width: 458px;
+	padding: 55px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.check-in-date,
+.check-out-date{
+	width: 458px;
+	height: 38px;
+	margin-bottom: 30px;
+}
+
+.tourists{
+	width: 458px;
+	height: 38px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 54px;
+}
+
+.form-content{
+	width: 458px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
 .search:hover{
@@ -105,9 +216,12 @@ a{
 }
 
 .search-form button[type="submit"]{
+	height: 58px;
+	width: 458px;
 	font-size: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
+	text-align: center;
 	color: #ffffff;
 	background-color: #81b3d2;
 }
@@ -235,40 +349,5 @@ a{
 	background-color: #503e33;
 }
 
-.head-container{
-	margin: 0;
-	padding: 0;
-	width: 1200px;
-	min-height: 56px;
-	display: flex;
-	background-color: rgba(245, 66, 203, 0.3);
-
-}
-
- .header-logo{
-	margin-left: 51px;
-	margin-right: 53px;
-	padding: 0;
-	width: 140px;
-	height: 71px;
-}
-
-.header-menu{
-	margin: 0;
-	padding: 0;
-	width: 1195px;
-	min-height: 56px;
-	background-color: rgba(109, 235, 123, 0.3);
-	display: flex;
-	flex-direction: row;
-}
-
-.header-menu li{
-	width: 239px;
-	height: 56px;
-	background-color: rgba(235, 140, 106, 0.3);
-	text-align: center;
-	vertical-align: middle;
-}
 
 
