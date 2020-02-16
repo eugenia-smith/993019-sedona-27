@@ -18,7 +18,8 @@ a{
 .wrap-all{
 	width: 1200px;
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
+	/*background-color: rgba(245, 66, 203, 0.3)*/ 
 
 }
 
@@ -28,8 +29,7 @@ a{
 	width: 1200px;
 	min-height: 56px;
 	display: flex;
-	/*background-color: rgba(245, 66, 203, 0.3);*/
-
+	
 }
 
  .header-logo{
@@ -44,7 +44,6 @@ a{
 	margin: 0;
 	padding: 0;
 	width: 1195px;
-	/*background-color: rgba(109, 235, 123, 0.3);*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -61,9 +60,7 @@ a{
 	height: 12px;
 	padding-top: 22px;
 	padding-bottom: 22px;
-	/*background-color: rgba(235, 140, 106, 0.3);*/
 	text-align: center;
-	vertical-align: middle;
 }
 
 .nav-options{
@@ -266,15 +263,42 @@ a{
 	color: #81b3d2;
 }
 
+.foot-container{
+	padding-top: 36px;
+	padding-right: 101px;
+	padding-bottom: 36px;
+	padding-left: 132px;
+	background-color: ;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .footer p{
 	font-size: 21px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 }
 
-
 .icons{
+	width: 150px;
 	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.fb, .twitter, .youtube{
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+}
+
+.copyright a{
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: normal;
+	text-align: center;
 }
 
 .calendar{
@@ -283,34 +307,69 @@ a{
 	height: 22px;
 }
 
-.amara h2{
-	font-size: 21px;
-	font-weight: bold;
-	text-align: left;
+.results{
+	display: flex;
+	flex-direction: column;
+
 }
 
-.quail h2{
-	font-size: 21px;
-	font-weight: bold;
-	text-align: left;
+.description{
+	width: 258px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
+.amara,
+.quail,
+.poco-diablo{
+	width: 1056px;
+	padding: 31px 72px;
+	margin-left: 0; 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgba(50, 168, 82, 0.3);
+}
+
+.amara h2,
+.quail h2,
 .poco-diablo h2{
 	font-size: 21px;
 	font-weight: bold;
 	text-align: left;
 }
 
+.amara img,
+.quail img,
+.poco-diablo img{
+	display: block;
+	margin-right: 30px;
+}
+
 .hotels{
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .rating{
-	list-style: none;
+	width: 110px;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
 }
 
-.rating li{
-	display: inline-block;
+.stars{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-bottom: 47px;
 }
 
 .hotels{
@@ -326,8 +385,20 @@ a{
 	color: #ffffff;
 }
 
+.book-options{
+	width: 258px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .details{
+	width: 110px;
+	height: 11px;
+	display: block;
 	background-color: #81b3d2;
+	text-align: center;
+	padding: 8px auto;
 }
 
 .details:hover{
@@ -340,6 +411,11 @@ a{
 }
 
 .book{
+	width: 142px;
+	height: 11px;
+	display: block;
+	text-align: center;
+	padding: 8px auto;
 	background-color: #766357;
 }
 
