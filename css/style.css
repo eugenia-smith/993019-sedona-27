@@ -140,14 +140,14 @@ a{
 .map{
 	min-height: 593px;
 	background-image: url(../img/map.png);
-	padding-left: 316px;
-	padding-right: 316px;
+	position: relative;
 }
 
 .search{
 	margin-top: 52px;
 	min-height: 68px;
 	width: 568px;
+	border: none;
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
@@ -165,6 +165,8 @@ a{
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	position: absolute;
+	left: 316px;
 }
 
 .check-in-date,
@@ -204,6 +206,7 @@ a{
 .search-form button[type="submit"]{
 	min-height: 58px;
 	width: 458px;
+	border: none;
 	font-size: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -282,6 +285,24 @@ a{
 	width: 46px;
 	height: 48px;
 	background-color: #81b3d2;
+}
+
+.fb{
+	background-image: url(../img/fb-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.twitter{
+	background-image: url(../img/twitter.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.youtube{
+	background-image: url(../img/youtube.svg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .copyright a{
