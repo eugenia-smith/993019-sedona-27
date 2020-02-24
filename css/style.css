@@ -107,6 +107,7 @@ a{
 	padding-bottom: 79px;
 }
 
+
 .why-sedona{
 	background-color: #ffffff;
 	padding-top: 61px;
@@ -214,6 +215,34 @@ a{
 	color: #ffffff;
 	background-color: #81b3d2;
 }
+.search-form .check-in-date{
+	display: flex;
+	align-items: center;	
+	position: relative; 
+}
+
+.search-form .check-in-date label{
+	margin-right: 21px;
+}
+
+.search-form .check-in-date input{
+	width: 346px;
+	min-height: 38px;
+}
+
+.check-in-date .calendar{
+	padding: 0px;
+	/*position: absolute;*/
+	right: 9px;
+	width: 22px;
+	height: 21px;
+	background-image: url(../img/calendar.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+
+
 
 .search-form button[type="submit"]:hover{
 	background-color: #669ec0;
@@ -226,6 +255,7 @@ a{
 
 .search-form input{
 	background-color: #f2f2f2;
+	border: none;
 }
 
 .search-form input:hover{
@@ -236,6 +266,7 @@ a{
 	border: solid 2px #e5e5e5;
 	background-color: #ffffff;
 }
+
 
 .search-form .calendar,
 .search-form button[type="button"]{
@@ -342,6 +373,7 @@ a{
 .amara h2,
 .quail h2,
 .poco-diablo h2{
+	margin: 0px;
 	font-size: 21px;
 	font-weight: bold;
 	text-align: left;
