@@ -326,9 +326,6 @@ a{
 
 .description{
 	width: 258px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
 }
 
 .amara,
