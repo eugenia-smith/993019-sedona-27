@@ -329,15 +329,14 @@ a{
 
 .icons{
 	width: 150px;
-	margin: 0px;
+	margin: 0px auto;
 	padding: 0px;
 	list-style: none;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 }
 
-.fb, .twitter, .youtube{
+.icons li{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -346,8 +345,29 @@ a{
 	background-color: #81b3d2;
 }
 
+.icons li:hover{
+	background-color: #669ec0;
 
-.copyright a{
+}
+
+.icons li:active{
+	background-color: #5496bd;
+}
+
+.icons li a svg:active{
+	opacity: 0.3; 
+}
+
+.copyright{
+	min-width: 197px;
+	margin: 0px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright a span{
+	margin-right: 8px;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
