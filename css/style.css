@@ -36,7 +36,7 @@ a{
 
  .header-logo{
 	position: absolute;
-	left: 46%;
+	left: 45%;
 
 }
 
@@ -104,7 +104,11 @@ a{
 	background-repeat: no-repeat;
 	text-align: center;
 	padding-top: 132px;
-	padding-bottom: 79px;
+}
+
+.main-screen svg{
+	position: relative;
+	top: 10px;
 }
 
 
@@ -225,24 +229,45 @@ a{
 	margin-right: 21px;
 }
 
+.search-form .check-out-date label{
+	margin-right: 17px;
+}
+
 .search-form .check-in-date input{
+	position: relative;
 	width: 346px;
 	min-height: 38px;
+	padding-right: 9px;
 }
 
-.check-in-date .calendar{
-	padding: 0px;
-	/*position: absolute;*/
+.search-form .check-in-date .calendar{
+	width: 21px;
+	height: 22px;
+	position: absolute;
+	top: 9px;
 	right: 9px;
-	width: 22px;
-	height: 21px;
-	background-image: url(../img/calendar.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	border: none;
+	background-image: url("../img/calendar.svg");
+  	background-repeat: no-repeat;
+  	border: none;
 }
 
+.search-form .check-out-date input{
+	position: relative;
+	width: 346px;
+	min-height: 38px;
+	padding-right: 9px;
+}
 
+.search-form .check-out-date .calendar{
+	width: 21px;
+	height: 22px;
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	background-image: url("../img/calendar.svg");
+  	background-repeat: no-repeat;
+  	border: none;
+}
 
 .search-form button[type="submit"]:hover{
 	background-color: #669ec0;
@@ -290,10 +315,10 @@ a{
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-/*	position: absolute;
+	position: absolute;
 	bottom: 0;
 	background-color: #ffffff;
-	opacity: 90%;*/
+	opacity: 90%;
 }
 
 .footer p{
