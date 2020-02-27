@@ -219,10 +219,41 @@ a{
 	color: #ffffff;
 	background-color: #81b3d2;
 }
-.search-form .check-in-date{
+.search-form .check-in-date,
+.search-form .check-out-date{
 	display: flex;
 	align-items: center;	
 	position: relative; 
+}
+
+.search-form .check-in-date input,
+.search-form .check-out-date input{
+	width: 346px;
+	min-height: 38px;
+}
+
+.search-form .check-in-date .calendar,
+.search-form .check-out-date .calendar{
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+.search-form .check-in-date .calendar svg,
+.search-form .check-out-date .calendar svg{
+	fill: #cacaca;
+}
+
+
+.search-form .calendar svg:hover{
+	fill: #000000;
+}
+
+.search-form .calendar svg:active{
+	fill:#81b3d2;
 }
 
 .search-form .check-in-date label{
@@ -231,42 +262,6 @@ a{
 
 .search-form .check-out-date label{
 	margin-right: 17px;
-}
-
-.search-form .check-in-date input{
-	position: relative;
-	width: 346px;
-	min-height: 38px;
-	padding-right: 9px;
-}
-
-.search-form .check-in-date .calendar{
-	width: 21px;
-	height: 22px;
-	position: absolute;
-	top: 9px;
-	right: 9px;
-	background-image: url("../img/calendar.svg");
-  	background-repeat: no-repeat;
-  	border: none;
-}
-
-.search-form .check-out-date input{
-	position: relative;
-	width: 346px;
-	min-height: 38px;
-	padding-right: 9px;
-}
-
-.search-form .check-out-date .calendar{
-	width: 21px;
-	height: 22px;
-	position: absolute;
-	top: 9px;
-	right: 9px;
-	background-image: url("../img/calendar.svg");
-  	background-repeat: no-repeat;
-  	border: none;
 }
 
 .search-form button[type="submit"]:hover{
@@ -368,6 +363,12 @@ a{
 
 .icons li a svg:active{
 	opacity: 0.3; 
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .copyright a span{
