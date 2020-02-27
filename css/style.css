@@ -308,6 +308,19 @@ a{
 	color: #81b3d2;
 }
 
+.foot-container-main{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-height: 120px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffff;
+	opacity: 90%;
+}
+
 .foot-container{
 	width: 100%;
 	min-height: 120px;
@@ -315,11 +328,10 @@ a{
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	position: absolute;
-	bottom: 0;
 	background-color: #ffffff;
 	opacity: 90%;
 }
+
 
 .footer p{
 	font-size: 21px;
@@ -358,21 +370,20 @@ a{
 	opacity: 0.3; 
 }
 
-.copyright{
-	min-width: 197px;
-	margin: 0px;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .copyright a span{
-	margin-right: 8px;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
-	text-align: center;
 }
+
+.copyright a svg:hover{
+	fill: #81b3d2;
+}
+
+.copyright a svg:active{
+	fill: #bdbbbc;
+}
+
 
 .results{
 	display: flex;
