@@ -184,6 +184,7 @@ a{
 	min-height: 256px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	list-style: none;
 	background-color: #eeeeee;
 
@@ -206,7 +207,7 @@ a{
 	width: 400px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;	
+	align-items: center;
 }
 
 .pre-form{
@@ -518,9 +519,32 @@ a{
 	fill: #bdbbbc;
 }
 
+.accommodation-features{
+	min-height: 217px;
+	display: flex;
+	background-image: url(../img/filter_background.jpg);
+	background-repeat: no-repeat;
+}
+
+.comfort-items,
+.accommodation-type{
+	margin: 31px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.items-block,
+.types-block{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: #ffffff;
+}
+
 .filter-range{
 	width: 330px;
-	margin: 50px auto;
+	margin: 31px auto;
 	color: #ffffff;
 	text-transform: uppercase;
 }
@@ -530,6 +554,7 @@ a{
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 21px;
+	color: #ffffff;
 }
 
 .price-controls{
@@ -553,7 +578,7 @@ a{
 }
 
 .price-controls label{
-	display: inline-block;
+	/*display: inline-block;*/
 	font-size: 14px;
 	line-height: 38px;
 	vertical-align: top;
