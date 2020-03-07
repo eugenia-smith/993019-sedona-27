@@ -160,20 +160,53 @@ a{
 	list-style: none;
 }
 
+.features .housing::before{
+	content: url(../img/icon-1.svg);
+	position: absolute;
+	top: 60px;
+}
+
+.features .food::before{
+	content: url(../img/icon-2.svg);
+	position: absolute;
+	top: 60px;
+}
+
+.features .presents::before{
+	content: url(../img/icon-3.svg);
+	position: absolute;
+	top: 60px;
+}
+
 .pro-2-5{
 	margin: 0px;
 	padding: 0px;
 	min-height: 256px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	list-style: none;
 	background-color: #eeeeee;
 
 }
 
-.features li,
+.features li{
+	position: relative;
+	padding-top: 161px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.features .slogan{
+	margin: 0px;
+}
+
 .pro-2-5 li{
-	width: 400px;	
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
 }
 
 .pre-form{
@@ -281,7 +314,7 @@ a{
 
 .search-form .check-in-date input,
 .search-form .check-out-date input{
-	width: 346px;
+	width: 352px;
 	min-height: 38px;
 }
 
