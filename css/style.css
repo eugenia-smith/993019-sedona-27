@@ -30,6 +30,7 @@ a{
 .head-container{
 	margin: 0;
 	padding: 0;
+	position: relative;
 	display: flex;
 	min-height: 56px;
 	align-items: center;
@@ -37,8 +38,10 @@ a{
 
  .header-logo{
 	position: absolute;
-	left: 45%;
-
+	top: 0;
+	z-index: 1;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .header-menu{
@@ -107,9 +110,10 @@ a{
 	padding-top: 132px;
 }
 
-.main-screen svg{
+.main-screen::after{
+	content: url(../img/polygon.svg);
 	position: relative;
-	top: 10px;
+	top: 8px;
 }
 
 
@@ -299,7 +303,7 @@ a{
 .search-form .tourists .adults input,
 .search-form .tourists .kids input{
 	margin: 0px;
-	min-width: 38px;
+	width: 38px;
 	min-height: 38px;
 	color: #000000;
 	text-align: center;
@@ -307,10 +311,16 @@ a{
 	font-weight: bold;
 }
 
+.search-form .tourists .adults,
+.search-form .tourists .kids{
+	display: flex;
+	align-items: center;
+}
+
 .search-form .tourists button[type="button"]{
 	margin: 0px;
 	padding: 0px;
-	min-width: 38px;
+	width: 38px;
 	min-height: 38px;
 	color: #cacaca;
 	border: none;
