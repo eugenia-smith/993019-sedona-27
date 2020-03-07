@@ -113,7 +113,7 @@ a{
 .main-screen::after{
 	content: url(../img/polygon.svg);
 	position: relative;
-	top: 8px;
+	top: 9px;
 }
 
 
@@ -126,6 +126,54 @@ a{
 .pros{
 	margin-top: 38px;
 	text-align: center;
+}
+
+.pros-container{
+	min-height: 1098px;
+	display: flex;
+	flex-direction: column;
+}
+
+.pro-1,
+.pro-2{
+	display: flex;
+	align-items: center;
+}
+
+.pro-1 img,
+.pro-2 img{
+	display: block;
+}	
+.pro-1-left,
+.pro-2-right{
+	min-height: 256px;
+	width: 400px;
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.features{
+	margin: 0px;
+	padding: 0px;
+	min-height: 330px;
+	display: flex;
+	list-style: none;
+}
+
+.pro-2-5{
+	margin: 0px;
+	padding: 0px;
+	min-height: 256px;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	background-color: #eeeeee;
+
+}
+
+.features li,
+.pro-2-5 li{
+	width: 400px;	
 }
 
 .pre-form{
@@ -376,6 +424,10 @@ a{
 	justify-content: space-between;
 }
 
+.icons a{
+	display: flex;
+}
+
 .icons li{
 	display: flex;
 	justify-content: center;
@@ -398,7 +450,7 @@ a{
 	opacity: 0.3; 
 }
 
-.copyright{
+.copyright a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -408,13 +460,28 @@ a{
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
+	color: #000000;
 }
 
-.copyright a svg:hover{
+.copyright a svg{
+	width: 115px;
+	height: 41px;
+	margin-left: 8px;
+}
+
+.copyright a span:hover{
+	color: #81b3d2;
+}
+
+.copyright a span:active{
+	color: #bdbbbc;
+}
+
+.copyright a:hover path{
 	fill: #81b3d2;
 }
 
-.copyright a svg:active{
+.copyright a:active path{
 	fill: #bdbbbc;
 }
 
