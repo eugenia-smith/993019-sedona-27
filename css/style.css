@@ -52,8 +52,8 @@ a{
 }
 
 .header-menu li{
-	width: 239px;
-	padding: 22px auto;
+	width: 236px;
+	/*padding: 22px auto;*/
 	text-align: center;
 }
 
@@ -106,30 +106,32 @@ a{
 .main-screen{
 	background-image: url(../img/landscape.jpg);
 	background-repeat: no-repeat;
+	background-position-y: 21%;
 	text-align: center;
-	padding-top: 132px;
+	padding-top: 76px;
+	padding-bottom: 6px;
 }
 
 .main-screen::after{
 	content: url(../img/polygon.svg);
 	position: relative;
-	top: 9px;
+	top: 14px;
 }
 
 
 .why-sedona{
 	background-color: #ffffff;
-	padding-top: 61px;
-	padding-bottom: 56px;
+	padding-top: 39px;
 }
 
 .pros{
-	margin-top: 38px;
+	margin-top: 27px;
 	text-align: center;
 }
 
 .pros-container{
 	min-height: 1098px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
 }
@@ -148,8 +150,25 @@ a{
 .pro-2-right{
 	min-height: 256px;
 	width: 400px;
+	padding-top: 26px;
 	background-color: #81b3d2;
 	color: #ffffff;
+}
+
+.pro-1-left p.slogan,
+.pro-2-right p.slogan{
+	line-height: 21px;
+}
+
+.pro-1-left p:nth-child(2),
+.pro-2-right p:nth-child(2){
+	margin-top: 22px;
+}
+
+.pro-1-left p:nth-child(3),
+.pro-2-right p:nth-child(3){
+	margin-top: 19px;
+    line-height: 21px;
 }
 
 .features{
@@ -160,6 +179,13 @@ a{
 	list-style: none;
 }
 
+.features .housing p.pros,
+.features .food p.pros,
+.features .presents p.pros{
+	margin-top: 20px;
+    line-height: 21px;
+}
+
 .features .housing::before{
 	content: url(../img/icon-1.svg);
 	position: absolute;
@@ -167,27 +193,15 @@ a{
 }
 
 .features .food::before{
-	content: url(../img/icon-2.svg);
-	position: absolute;
-	top: 60px;
-}
-
-.features .presents::before{
 	content: url(../img/icon-3.svg);
 	position: absolute;
 	top: 60px;
 }
 
-.pro-2-5{
-	margin: 0px;
-	padding: 0px;
-	min-height: 256px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-	background-color: #eeeeee;
-
+.features .presents::before{
+	content: url(../img/icon-2.svg);
+	position: absolute;
+	top: 60px;
 }
 
 .features li{
@@ -203,6 +217,16 @@ a{
 	margin: 0px;
 }
 
+
+.pro-2-5{
+	margin: 0px;
+	padding: 27px 0px 0px 0px;
+	min-height: 256px;
+	display: flex;
+	list-style: none;
+	background-color: #eeeeee;
+}
+
 .pro-2-5 li{
 	width: 400px;
 	display: flex;
@@ -210,14 +234,29 @@ a{
 	align-items: center;
 }
 
+.pro-2-5 li p.slogan{
+	line-height: 21px;
+}
+
+.pro-2-5 li p:nth-child(2){
+	margin-top: 0px;
+}
+
+.pro-2-5 li p:nth-child(3){
+	margin-top: 5px;
+    line-height: 21px;
+}
+
+
 .pre-form{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
+	padding-top: 50px;
 }
 
 .curious{
+	margin: 0px;
 	font-size: 30px;
 	font-weight: bold;
 	line-height: 36px;
@@ -227,6 +266,8 @@ a{
 .assist{
 	text-align: center;
 	line-height: 24px;
+	margin-top:25px;
+	margin-bottom: 0px;
 }
 
 .map{
@@ -236,9 +277,10 @@ a{
 }
 
 .search{
-	margin-top: 52px;
-	min-height: 68px;
+	min-height: 85px;
 	width: 568px;
+	padding: 0px;
+	margin-top: 48px;
 	border: none;
 	font-size: 21px;
 	font-weight: bold;
@@ -315,9 +357,16 @@ a{
 
 .search-form .check-in-date input,
 .search-form .check-out-date input{
-	width: 352px;
+	width: 346px;
 	min-height: 38px;
+	padding-left: 15px;
 }
+
+.search-form .check-in-date input:focus,
+.search-form .check-out-date input:focus{
+	border: solid 2px #e5e5e5;
+ 	background-color: #ffffff;
+ }
 
 .search-form .check-in-date .calendar,
 .search-form .check-out-date .calendar{
@@ -344,11 +393,11 @@ a{
 }
 
 .search-form .check-in-date label{
-	margin-right: 21px;
+	margin-right: 27px;
 }
 
 .search-form .check-out-date label{
-	margin-right: 17px;
+	margin-right: 23px;
 }
 
 .search-form button[type="submit"]:hover{
@@ -425,8 +474,9 @@ a{
 	min-height: 120px;
 	display:flex;
 	flex-direction: row;
-	justify-content: space-around;
 	align-items: center;
+	padding-right: 100px;
+	padding-left: 133px;
 	background-color: #ffffff;
 	opacity: 90%;
 }
@@ -436,17 +486,21 @@ a{
 	min-height: 120px;
 	display:flex;
 	flex-direction: row;
-	justify-content: space-around;
 	align-items: center;
+	padding-right: 100px;
+	padding-left: 133px;
 	background-color: #ffffff;
 	opacity: 90%;
 }
 
-
 .footer p{
+	margin: 0px;
 	font-size: 21px;
 	font-weight: bold;
 	text-align: left;
+}
+.social{
+	margin-left: 168px;
 }
 
 .icons{
@@ -488,13 +542,14 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.copyright a{
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
 	color: #000000;
+}
+
+.footer p.copyright{
+	margin: 0px 0px 0px auto;
 }
 
 .copyright a svg{
