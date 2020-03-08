@@ -490,7 +490,7 @@ a{
 	align-items: center;
 }
 
-.copyright a span{
+.copyright a{
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
@@ -503,11 +503,11 @@ a{
 	margin-left: 8px;
 }
 
-.copyright a span:hover{
+.copyright a:hover{
 	color: #81b3d2;
 }
 
-.copyright a span:active{
+.copyright a:active{
 	color: #bdbbbc;
 }
 
@@ -524,6 +524,39 @@ a{
 	display: flex;
 	background-image: url(../img/filter_background.jpg);
 	background-repeat: no-repeat;
+}
+
+
+.accommodation-features li input[type="checkbox"]:checked, 
+.accommodation-features li input[type="checkbox"]:not(:checked){
+	position: absolute;
+    left: -9999px;
+}
+
+.accommodation-features li{
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-bottom: 23px;
+}
+
+.accommodation-features li label{
+	padding-left: 40px;
+}
+
+.accommodation-features li::before{
+	content: url(../img/checkbox-on.svg);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.accommodation-features .comfort-items li:nth-child(2)::before,
+.accommodation-features .comfort-items li:nth-child(3)::before{
+	content: url(../img/checkbox-off.svg);
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 
 .comfort-items,
@@ -734,11 +767,11 @@ a{
 }
 
 .results .sort-items button.dir-up svg path{
-	fill: #81b3d2;
+	fill: rgba(0, 0, 0, 0.3);
 }
 
 .results .sort-items button.dir-down svg path{
-	fill: rgba(0, 0, 0, 0.3);
+	fill: #81b3d2;
 }
 
 .results .sort-items button.dir-up svg path:hover,
