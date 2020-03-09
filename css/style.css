@@ -595,7 +595,7 @@ a{
 	display: flex;
 	align-items: center;
 	position: relative;
-	margin-bottom: 23px;
+	margin-bottom: 20px;
 }
 
 .accommodation-features li label{
@@ -617,13 +617,21 @@ a{
 	top: 0px;
 }
 
-.comfort-items,
-.accommodation-type{
-	margin: 31px 50px;
+.comfort-items{
+	padding: 27px 72px 0px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 }
+
+.accommodation-type{
+	padding: 27px 52px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+
 
 .items-block,
 .types-block{
@@ -635,23 +643,29 @@ a{
 
 .filter-range{
 	width: 330px;
-	margin: 31px auto;
+	margin: 26px 0px 0px 285px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
-
 .filter-range-title{
-	margin-bottom: 9px;
+	margin-bottom: 23px;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 21px;
 	color: #ffffff;
 }
 
+.accommodation-features .filter-range .filter-range-title{
+	margin-left: 12px;
+	margin-bottom: 11px;
+}
+
+
 .price-controls{
 	position: relative;
 	height: 36px;
 	margin-bottom: 20px;
+	margin-left: 11px;
 	font-size: 0;
 	border: 2px solid #ffffff;
 	border-radius: 2px;
@@ -709,7 +723,7 @@ a{
 
 .range-toggle{
 	position: absolute;
-	top: -9px;
+	top: -7px;
 	width: 4px;
 	height: 4px;
 	background: #ababab;
@@ -720,7 +734,7 @@ a{
 }
 
 .range-toggle-min{
-	left: 0;
+	left: 14;
 }
 
 .range-toggle-max{
@@ -758,7 +772,7 @@ a{
 	min-height: 85px;
 	display: flex;
 	align-items: center;
-	padding: 31px 72px;
+	padding: 9px 72px;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 	font-size: 12px;
 	color: #000000;
@@ -766,7 +780,7 @@ a{
 }
 
 .too-big-text{
-	margin-right: 49px;
+	margin-right: 53px;
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
@@ -800,7 +814,7 @@ a{
 .results .found button.here-we-are{
 	color: #81b3d2;
 	border: none;
-	margin-left: 41px;
+	margin-left: 37px;
 }
 
 .results .sort-items{
