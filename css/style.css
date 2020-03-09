@@ -62,6 +62,10 @@ a{
 	margin-left: auto;
 }
 
+.header-menu li:nth-child(4){
+	color: #766357;
+}
+
 .nav-options{
 	font-size: 14px;
 	font-weight: bold;
@@ -734,11 +738,11 @@ a{
 }
 
 .range-toggle-min{
-	left: 14;
+	left: 14px;
 }
 
 .range-toggle-max{
-	left: 80%;
+	left: 80.5%;
 }
 
 .range-toggle:hover{
@@ -793,7 +797,7 @@ a{
 	border-left: 0px;
 	border-top: 0px;
 	border-right: 0px;
-	margin-left: 33px;
+	margin-left: 20px;
 	background-color: transparent;
 	color: rgba(0, 0, 0, 0.3);
 	font-size: 12px;
@@ -860,15 +864,30 @@ a{
 	width: 258px;
 }
 
+.description p{
+	margin-top: 6px;
+}
+
+.amara .description p span{
+	margin-left: 35px;
+}
+
+ .quail .description p span{
+	margin-left: 60px;
+}
+
+.poco-diablo .description p span{
+	margin-left: 18px;
+}
+
 .amara,
 .quail,
 .poco-diablo{
-	padding: 31px 72px;
+	padding: 30px 72px;
 	margin-left: 0; 
 	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 }
 
 .amara h2,
@@ -906,16 +925,24 @@ a{
 
 }
 
-.stars{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	margin-bottom: 47px;
+.rating p{
+	width: 110px;
+    min-height: 27px;
+    padding-top: 3px;
+    margin: 0;
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
-.stars li img{
-	margin-right: 0px;
+.stars{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 47px;
+	padding: 0px;
+}
+
+.stars svg{
+	margin-left: 6px;
 }
 
 .hotels{
@@ -939,10 +966,10 @@ a{
 
 .details{
 	width: 110px;
+	padding: 3px;
 	display: block;
 	background-color: #81b3d2;
 	text-align: center;
-	padding: 8px auto;
 }
 
 .details:hover{
@@ -956,6 +983,7 @@ a{
 
 .book{
 	width: 142px;
+	padding: 3px;
 	display: block;
 	text-align: center;
 	padding: 8px auto;
