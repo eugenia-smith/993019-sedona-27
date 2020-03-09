@@ -584,7 +584,7 @@ a{
 .accommodation-features{
 	min-height: 217px;
 	display: flex;
-	background-image: url(../img/filter_background.jpg);
+	background-image: url(../img/filter-background.jpg);
 	background-repeat: no-repeat;
 }
 
