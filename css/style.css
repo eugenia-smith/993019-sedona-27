@@ -27,6 +27,13 @@ a{
 
 }
 
+.carpet{
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f2f2f2;
+}
+
 .head-container{
 	margin: 0;
 	padding: 0;
@@ -34,6 +41,7 @@ a{
 	display: flex;
 	min-height: 56px;
 	align-items: center;
+	background-color: #ffffff;
 }
 
  .header-logo{
@@ -53,10 +61,19 @@ a{
 
 .header-menu li{
 	width: 236px;
-	/*padding: 22px auto;*/
-	text-align: center;
 }
 
+.header-menu li:nth-child(1),
+.header-menu li:nth-child(2){
+	padding-left: 70px;
+	text-align: left;
+}
+
+.header-menu li:nth-child(3),
+.header-menu li:nth-child(4){
+	padding-right: 70px;
+	text-align: right;
+}
 
 .header-menu li:nth-child(3){
 	margin-left: auto;
@@ -588,6 +605,7 @@ a{
 	display: flex;
 	background-image: url(../img/filter-background.jpg);
 	background-repeat: no-repeat;
+	background-position-y: -50px;
 }
 
 
@@ -696,7 +714,7 @@ a{
 .price-controls .min-price,
 .price-controls .max-price{
 	width: 90px;
-	padding-left: 65px;
+	padding-left: 72px;
 }
 
 .price-controls input{
@@ -708,7 +726,6 @@ a{
 	font-size: 16px;
 	font-weight: 400;
 	text-transform: uppercase;
-
 }
 
 .range-controls{
@@ -777,6 +794,7 @@ a{
 .results{
 	display: flex;
 	flex-direction: column;
+	background-color: #ffffff;
 }
 
 .found{
