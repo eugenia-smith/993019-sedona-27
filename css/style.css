@@ -95,13 +95,11 @@ a{
 	color:#000000;
 }
 
-.nav-options a:hover,
-.hotels h2:hover{
+.nav-options a:hover{
 	color: #81b3d2;
 }
 
-.nav-options a:active,
-.hotels h2:active{
+.nav-options a:active{
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -666,7 +664,7 @@ a{
 }
 
 .filter-range{
-	width: 330px;
+	width: 320px;
 	margin-left: auto;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -912,29 +910,24 @@ a{
 	flex-direction: row;
 }
 
-.amara h2,
-.quail h2,
-.poco-diablo h2{
-	margin: 0px;
-	font-size: 21px;
-	font-weight: bold;
-	text-align: left;
-}
-
-.amara img,
-.quail img,
-.poco-diablo img{
-	display: block;
-	margin-right: 30px;
-}
-
 .hotels{
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 	display: flex;
 	flex-direction: column;
+}
 
+.hotels h2{
+	margin: 0px;
+	font-size: 21px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.hotels img{
+	display: block;
+	margin-right: 30px;
 }
 
 .rating{
@@ -973,7 +966,7 @@ a{
 	text-align: left; 
 }
 
-.hotels a{
+.book-options a{
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 21px;
