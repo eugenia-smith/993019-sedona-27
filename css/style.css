@@ -20,6 +20,8 @@ a{
 }
 
 .wrap-all{
+	display: flex;
+	flex-direction: column;
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -121,15 +123,24 @@ a{
 	background-position-y: 21%;
 	text-align: center;
 	padding-top: 76px;
-	padding-bottom: 6px;
+	padding-bottom: 35px;
 }
 
-.main-screen::after{
+/*.main-screen::after{
 	content: url(../img/polygon.svg);
 	position: relative;
 	top: 14px;
 }
+*/
 
+.main-screen::after{
+	content: url(../img/polygon.svg);
+	width: 1200px;
+	height: 59px;
+	position: absolute;
+	left: 0px;
+	top: 471px;
+}
 
 .why-sedona{
 	background-color: #ffffff;
@@ -500,7 +511,7 @@ a{
 	min-height: 120px;
 	display:flex;
 	flex-direction: row;
-	align-items: center;
+	padding-top: 36px;
 	padding-right: 100px;
 	padding-left: 133px;
 	background-color: #ffffff;
