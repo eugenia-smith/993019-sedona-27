@@ -123,15 +123,8 @@ a{
 	background-position-y: 21%;
 	text-align: center;
 	padding-top: 76px;
-	padding-bottom: 35px;
+	padding-bottom: 71px;
 }
-
-/*.main-screen::after{
-	content: url(../img/polygon.svg);
-	position: relative;
-	top: 14px;
-}
-*/
 
 .main-screen::after{
 	content: url(../img/polygon.svg);
@@ -139,7 +132,7 @@ a{
 	height: 59px;
 	position: absolute;
 	left: 0px;
-	top: 471px;
+	top: 507px;
 }
 
 .why-sedona{
