@@ -184,7 +184,7 @@ a{
 .pro-1-left p:nth-child(3),
 .pro-2-right p:nth-child(3){
 	margin-top: 19px;
-    line-height: 21px;
+	line-height: 21px;
 }
 
 .features{
@@ -199,7 +199,7 @@ a{
 .features .food p.pros,
 .features .presents p.pros{
 	margin-top: 20px;
-    line-height: 21px;
+	line-height: 21px;
 }
 
 .features .housing::before{
@@ -269,7 +269,7 @@ a{
 
 .pro-2-5 li p:nth-child(3){
 	margin-top: 5px;
-    line-height: 21px;
+	line-height: 21px;
 }
 
 
@@ -356,7 +356,6 @@ a{
 	align-items: center;
 	font-weight: bold;
 	text-align: left;
-
 }
 
 .search-form button[type="submit"]{
@@ -370,6 +369,7 @@ a{
 	color: #ffffff;
 	background-color: #81b3d2;
 }
+
 .search-form .check-in-date,
 .search-form .check-out-date{
 	display: flex;
@@ -390,8 +390,8 @@ a{
 .search-form .check-in-date input:focus,
 .search-form .check-out-date input:focus{
 	border: solid 2px #e5e5e5;
- 	background-color: #ffffff;
- }
+	background-color: #ffffff;
+}
 
 .search-form .check-in-date .calendar,
 .search-form .check-out-date .calendar{
@@ -617,7 +617,7 @@ a{
 .accommodation-features li input[type="checkbox"]:checked, 
 .accommodation-features li input[type="checkbox"]:not(:checked){
 	position: absolute;
-    left: -9999px;
+	left: -9999px;
 }
 
 .accommodation-features li{
@@ -767,8 +767,8 @@ a{
 	width: 20px;
 	height: 23px;
 	position: absolute;
-    top: -10px;
-    left: -10px;
+	top: -10px;
+	left: -10px;
 }
 
 .range-toggle-max{
@@ -950,11 +950,11 @@ a{
 
 .rating p{
 	width: 110px;
-    min-height: 27px;
-    padding-top: 3px;
-    margin: 0;
-    text-align: center;
-    background-color: #f2f2f2;
+	min-height: 27px;
+	padding-top: 3px;
+	margin: 0;
+	text-align: center;
+	background-color: #f2f2f2;
 }
 
 .stars{
@@ -1021,6 +1021,3 @@ a{
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #503e33;
 }
-
-
-
