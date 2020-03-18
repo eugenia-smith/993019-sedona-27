@@ -596,7 +596,6 @@ a{
 
 .icons li:hover{
 	background-color: #669ec0;
-
 }
 
 .icons li:active{
@@ -939,7 +938,7 @@ a{
 	margin-left: 35px;
 }
 
- .quail .description p span{
+.quail .description p span{
 	margin-left: 60px;
 }
 
@@ -962,6 +961,7 @@ a{
 	padding: 0px;
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 
